@@ -1,0 +1,45 @@
+# Ignore files and directories that are specific to IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore build output directories
+/out/
+target/
+build/
+
+# Ignore Maven specific files
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other IDEs and tools
+.vscode/
+*.log
+*.tmp
+*~
+
+# Ignore node_modules if any node.js packages are used
+node_modules/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore compiled files and folders
+bin/
+gen/
