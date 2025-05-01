@@ -9,7 +9,7 @@ public class Main {
         CustomerController customerController = new CustomerController();
 
         // Example actions
-        adminController.addProduct("Chocolate", 1, 1.50, "CHOCOLATE");
+        adminController.addProduct("Chocolate", 1, 1.50, "CHOCOLATE", 1);
         customerController.insertMoney(2.00);
         customerController.pressButton(1);
     }

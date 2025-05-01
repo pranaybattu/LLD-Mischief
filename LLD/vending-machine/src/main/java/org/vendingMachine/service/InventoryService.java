@@ -7,9 +7,9 @@ import org.vendingMachine.model.Product;
 public class InventoryService {
     private Inventory inventory = new Inventory();
 
-    public void addProduct(String name, int id, double price, String type) {
+    public void addProduct(String name, int id, double price, String type, int rack) {
         ProductType productType = ProductType.valueOf(type);
         Product product = new Product(name, id, price, productType);
-        inventory.addProduct(product);
+        inventory.addProduct(rack, product);
     }
 }
