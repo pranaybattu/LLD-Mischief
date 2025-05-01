@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-public class RateLimiterFactory {
+    public class RateLimiterFactory {
     private static final Map<RateLimiterType, Function<Map<String, Object>, IRateLimiter>> rateLimiterMap = new HashMap<>();
 
     // SINGLETON - EAGER INTIALIZATION
